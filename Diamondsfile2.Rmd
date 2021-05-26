@@ -1,0 +1,17 @@
+---
+title: "Diamondsfile2"
+author: "Jacika Patel"
+date: "5/26/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+ select(price, color, x)
+```
